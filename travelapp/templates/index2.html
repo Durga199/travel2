@@ -1,0 +1,13 @@
+
+{% extends 'base.html'%}
+{% block content%}
+<h1> Hello everyone</h1>
+<h2>my name is <b>{{name}} and i am {{age}}</b></h2>
+
+<form action="add">
+Enter 1st number : <input type="text" name="n1"><br>
+Enter 2nd number : <input type="text" name="n2"><br><br><br>
+<input type="submit" value="ADD">
+
+</form>
+{% endblock%}
